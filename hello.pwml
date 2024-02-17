@@ -1,0 +1,8 @@
+Hello, World!
+This is a <#a0f>PWML<#fff> document, or Plasma Web Markup Document! It's like rich text, but can hold lua code to be ran!
+<u>It also lets you use buttons, and scripts that run on page load.</u>
+<button payload="Test">Test</button>
+<lua RunOnPayload="Test">
+print("Hello, World!")
+</lua>
+When you hit the button above, make sure to check the console window!
